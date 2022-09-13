@@ -35,7 +35,7 @@ section {
 
 .section-content {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   overflow-x: hidden;
 }
 @media (max-width: 1600px) {
@@ -137,7 +137,7 @@ section {
   gap: 2rem;
 }
 .cards__item {
-  min-width: 530px;
+  min-width: 500px;
   transition: all 0.5s;
 }
 .cards__item__top {
@@ -171,11 +171,11 @@ section {
   width: 100%;
 }
 .cards__item__top .img1 {
-  max-width: 220px;
+  max-width: 205px;
   justify-content: end;
 }
 .cards__item__top .img2 {
-  max-width: 210px;
+  max-width: 205px;
 }
 .cards__item__bottom {
   min-height: 210px;
@@ -323,7 +323,7 @@ section {
 .navbar__list {
   display: flex;
   gap: 0.7rem;
-  width: 100%;
+  width: 99%;
   justify-content: center;
   align-items: center;
 }
@@ -344,7 +344,7 @@ section {
   cursor: pointer;
   width: 1%;
   display: flex;
-  padding-right: 7rem;
+  padding-right: 10rem;
 }
 @media (max-width: 1600px) {
   .navbar__arrow {
@@ -362,12 +362,13 @@ section {
   height: 580px;
   overflow: hidden;
   display: flex;
-  gap: 2.5rem;
+  gap: 0.5rem;
 }
 @media (max-width: 1600px) {
   .slider {
     width: 100%;
     justify-content: start;
+    gap: 2.5rem;
   }
 }
 @media (max-width: 1400px) {
