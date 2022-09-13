@@ -344,7 +344,7 @@ section {
   cursor: pointer;
   width: 1%;
   display: flex;
-  padding-right: 10rem;
+  margin-right: 10rem;
 }
 @media (max-width: 1600px) {
   .navbar__arrow {
